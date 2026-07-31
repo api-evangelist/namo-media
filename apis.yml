@@ -1,7 +1,22 @@
 aid: namo-media
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/namo-media.png
 name: Namo Media
-description: Namo Media is a company surfaced as a portfolio company of a16z, gv and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Namo Media is a company surfaced as a portfolio company of a16z and gv and added to the API
+  Evangelist network as a stub for enrichment. As of this enrichment pass its primary domain (namomedia.com)
+  no longer resolves to the company and 301-redirects to an unrelated parked domain, so there is no live
+  developer portal, documentation, or API surface to harvest. No API artifacts were generated and none were
+  fabricated; the profile is retained as a portfolio lead pending any future re-emergence of a public API.
 url: https://raw.githubusercontent.com/api-evangelist/namo-media/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,7 +27,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 apis: []
@@ -21,3 +36,10 @@ maintainers:
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  notes: 'Primary domain namomedia.com 301-redirects to unrelated parked domain
+    (realestateagentsranked.com); company defunct, no live API surface to enrich.'
